@@ -4,7 +4,7 @@ const chatInput = document.querySelector(".chat-input input[type='text']");
 const userAvatar = "./img/user.png";
 const botAvatar = "./img/bot.png";
 const typingDelay = 50; // Milisegundos entre cada carácter del tipeo
-const botResponse = "Y yo qué sé, no ves que este chat es una garcha?."; // Respuesta del bot
+const botResponse = "Y yo qué sé, no ves que este chat es una garcha? B==D."; // Respuesta del bot
 
 // Función para agregar mensajes al historial de chat con efecto de tipeo para la respuesta del bot
 function addMessageToChat(message, isBot = false) {

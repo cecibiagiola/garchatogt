@@ -7,6 +7,7 @@
 
 body { 
   background-color: #343541;
+  overflow: hidden;
 }
 
 i {
@@ -34,6 +35,11 @@ i:hover{
   margin-top: 20px;
 }
 
+a {
+  color: rgb(235, 17, 173);
+  text-decoration: none;
+}
+
 .chat-header p{
   margin-top: 10px;
   font-size: 20px;
@@ -43,6 +49,8 @@ i:hover{
 
 .chat-header h1 {
   font-size: 36px;  
+  font-weight: 600;
+  margin-top: 50px;
 }
 
 .chat-history {
@@ -128,7 +136,7 @@ outline: none;
 @media (max-width: 600px){
   
   .chat-header h1 {
-    font-size: 40px; 
+    font-size: 24px; 
     margin-top: 20px; 
   }
 
@@ -137,6 +145,7 @@ outline: none;
     margin-top: 20px;
     font-size: 10px;
     text-align: center;
+    font-size: 14px; 
   }
 
   .chat-input form{
